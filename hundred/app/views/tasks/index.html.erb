@@ -1,0 +1,6 @@
+<h1> Welcome to the Task Page</h1>
+<% @categories.each do |cat|%>
+  <button name="<%=cat%>" type="submit"><%=cat%></button>
+<%end%>
+
+<p><%= @task[0].desc %></p>
