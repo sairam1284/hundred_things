@@ -5,3 +5,28 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Task.create!([
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+  {
+    task: "Write an outline for a novel",category: "Creative",user_id: 9999, desc: "some descrtiption"
+  },
+
+])
