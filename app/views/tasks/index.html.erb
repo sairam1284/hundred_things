@@ -1,12 +1,18 @@
-<h1> Welcome to the Task Page</h1>
-<% @categories.each do |cat|%>
-  <span name="<%=cat%>" type="submit" class="<%= 'active' if params[:category] == cat%>" id="<%=cat.downcase%>"> <%=link_to cat, tasks_path(category: cat) %></span>
-<%end%>
-<br>
-<!-- <div class="messages"> -->
-<% if @winner.blank? %>
-  <div class="emptymessage"> Click a category and an Activity will pop up! </div>
-<% else %>
-  <div class="randomtask"><p><%= @winner[0].task %></p></div>
-<% end %>
-<!-- </div> -->
+<div class= "container">
+  <h1> Welcome to the Task Page</h1>
+  <% if @winner.blank? %>
+    <div class="emptymessage"> Click a category and an Activity will pop up! </div>
+  <%end%>
+  <div class="container-fluid">
+    <% @categories.each do |cat|%>
+      <span name="<%=cat%>" type="submit" class="<%= 'active' if params[:category] == cat%>" id="category"><%=link_to cat, tasks_path(category: cat) %></span>
+    <%end%>
+  </div>
+  <br>
+  <div class = "goodstuff">
+    <% if !@winner.blank? %>
+      <span class="randomtask"><%= @winner.task %></span>
+      <p class="taskdesc"> <%=@winner.desc%> </p>
+    <% end %>
+  </div>
+</div>

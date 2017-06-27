@@ -2,21 +2,12 @@ class TasksController < ApplicationController
   def index
     @categories = ["Active", "Research", "Creative", "Social", "Out There!", "Other", "All"]
     if params[:category] == "All"
-      @tasks = Task.where(user_id: 9999)
-      tlength = @tasks.count
-      @winner = @tasks.where(id: rand(1..tlength))
+      @winner  = Task.where(user_id: 9999).order("RANDOM()").first
+
     else
       @cat = params[:category]
-      @tasks = Task.where(category: @cat)
-      tlength = @tasks.count
-      @winner = @tasks.where(id: rand(1..tlength))
+      @winner = Task.where(category: @cat).order("RANDOM()").first
     end
-
-    # @tasks = Task.where(user_id: 9999)
-    # @categories = ["Active", "Research", "Creative", "Social", "Out There!", "Other", "All"]
-    # # @task = Task.
-    # tlength = Task.count
-    # @task = Task.where(id: rand(1..tlength))
     # binding.pry
   end
 
