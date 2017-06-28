@@ -22,8 +22,14 @@
   }
 }
 
+.container-fluid.home {
+  padding: 3% 10%;
+}
 .home-message {
   text-align:center
+}
+.alltask{
+  margin:5%;
 }
  @keyframes example1 {
      from {font-size: xx-small; font-style: none}
@@ -47,7 +53,7 @@
 }
 
 .goodstuff {
-  padding-left: 10%;
+  padding: 5% 10%;
 }
 
 #category {
@@ -56,9 +62,9 @@
   border-radius: 5px;
   padding: 1.2rem;
   float: left;
-  margin: 1rem;
+  margin-right: 1rem;
   &:hover {
-    background-color: maroon;
+    background-color: lime;
     color:white;
     transition: 0.4s;
     border-radius: 10px;

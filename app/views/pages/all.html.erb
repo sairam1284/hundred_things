@@ -1,6 +1,13 @@
-<h1> Welcome to the All Task Page</h1>
-<ul>
-<% @tasks.each do |t|%>
-  <li><%= t.task %> (<%=t.category%>)</li>
-<%end%>
-</ul>
+<h1 style="padding-left: 3%"> List of all possible activities</h1>
+<table class="alltask">
+  <tr style="border-bottom: solid 1px;">
+    <th style="width:25%; "> Category </th>
+    <th style="width:75%"> Activity </th>
+  </tr>
+  <% @tasks.each do |t|%>
+  <tr style="border-bottom: solid 1px;">
+    <td> <%=t.category%>, </td>
+    <td><%= link_to t.task, t %></td>
+  </tr>
+  <%end%>
+</table>
