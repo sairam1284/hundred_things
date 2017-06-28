@@ -1,7 +1,7 @@
 class TasksController < ApplicationController
   def index
-    @categories = ["Active", "Brainy", "Creative", "Social", "Relaxing", "Other", "All"]
-    if params[:category] == "All"
+    @categories = ["Active", "Brainy", "Creative", "Social", "Relaxing", "All Categories"]
+    if params[:category] == "All Categories"
       @winner  = Task.where(user_id: 9999).order("RANDOM()").first
 
     else

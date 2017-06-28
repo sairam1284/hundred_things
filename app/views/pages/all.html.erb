@@ -5,8 +5,8 @@
     <th style="width:75%"> Activity </th>
   </tr>
   <% @tasks.each do |t|%>
-  <tr style="border-bottom: solid 1px;">
-    <td> <%=t.category%>, </td>
+  <tr>
+    <td> <%=t.category%> : </td>
     <td><%= link_to t.task, t %></td>
   </tr>
   <%end%>

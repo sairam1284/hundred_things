@@ -15,6 +15,15 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+.title{
+  font-size: 60px;
+  font-family:  papyrus;
+  font-style: italic;
+  color: white;
+  margin: 2%;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px blue, 1px 0 5px black;
+}
 .navbar-item {
   &:hover {
     font-size: larger;
@@ -60,15 +69,18 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  padding: 1.2rem;
+  padding: 1rem;
   float: left;
   margin-right: 1rem;
+  margin-bottom: 1rem;
   &:hover {
-    background-color: lime;
-    color:white;
+    background: linear-gradient(red, yellow);
+    padding: 1.2rem;
     transition: 0.4s;
     border-radius: 10px;
     transition: .5s;
+    margin-bottom: 1rem;
+    
   }
   &:active {
     border-radius: 10px;

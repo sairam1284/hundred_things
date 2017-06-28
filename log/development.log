@@ -7587,3 +7587,854 @@ Processing by TasksController#index as HTML
 Completed 200 OK in 102ms (Views: 88.9ms | ActiveRecord: 7.1ms)
 
 
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:09:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 1117ms (Views: 1095.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:10:44 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 215ms (Views: 205.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:11:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3383ms (Views: 3379.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:12:26 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 3829ms (Views: 3818.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:12:37 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3332ms (Views: 3329.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:15:15 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 4828ms (Views: 4808.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:15:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4227ms (Views: 4222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:16:00 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4132ms (Views: 4129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:16:11 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3099ms (Views: 3094.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:16:31 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 396ms (Views: 384.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:16:39 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 122ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:17:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3890ms (Views: 3886.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:22:54 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (19.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 4795ms (Views: 4677.9ms | ActiveRecord: 39.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:22:59 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (5.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 180ms (Views: 166.6ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:23:21 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (4.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 3576ms (Views: 3565.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:23:33 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (3.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 4041ms (Views: 4031.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:25:30 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 4085ms (Views: 4048.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:26:10 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (9.0ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3802ms (Views: 3783.9ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:26:55 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 3642ms (Views: 3635.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:27:33 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 4690ms (Views: 4680.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tasks?category=Relaxing" for 127.0.0.1 at 2017-06-28 11:27:42 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Relaxing"}
+  [1m[36mTask Load (12.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Relaxing"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 256ms (Views: 164.1ms | ActiveRecord: 58.8ms)
+
+
+Started GET "/tasks?category=Relaxing" for 127.0.0.1 at 2017-06-28 11:28:17 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Relaxing"}
+  [1m[36mTask Load (3.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Relaxing"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 118ms (Views: 107.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/tasks?category=Creative" for 127.0.0.1 at 2017-06-28 11:28:21 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Creative"}
+  [1m[36mTask Load (6.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Creative"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 111ms (Views: 100.2ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:28:25 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 94ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:28:47 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 4372ms (Views: 4357.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:28:59 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3213ms (Views: 3210.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:29:16 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 102ms (Views: 89.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:29:20 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 124ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:29:25 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (3.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 137ms (Views: 123.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:29:39 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 102ms (Views: 96.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:29:56 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 108ms (Views: 103.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:30:04 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 123ms (Views: 118.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tasks/9" for 127.0.0.1 at 2017-06-28 11:30:09 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 218ms (Views: 131.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/tasks/3" for 127.0.0.1 at 2017-06-28 11:30:36 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 146ms (Views: 137.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks/3" for 127.0.0.1 at 2017-06-28 11:31:09 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 166ms (Views: 159.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tasks/3" for 127.0.0.1 at 2017-06-28 11:31:19 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 129ms (Views: 122.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:31:29 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 163ms (Views: 157.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tasks/3" for 127.0.0.1 at 2017-06-28 11:32:15 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 159ms (Views: 151.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:32:19 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 142ms (Views: 131.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tasks/1" for 127.0.0.1 at 2017-06-28 11:32:20 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 184ms (Views: 176.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:32:24 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 142ms (Views: 134.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks/11" for 127.0.0.1 at 2017-06-28 11:32:26 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 107.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tasks/14" for 127.0.0.1 at 2017-06-28 11:32:29 -0400
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 186ms (Views: 177.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:33:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:33:52 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3967ms (Views: 3963.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:33:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 167ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:34:05 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3315ms (Views: 3311.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:34:16 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3253ms (Views: 3249.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:34:28 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3330ms (Views: 3327.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:35:00 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3678ms (Views: 3673.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:35:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3312ms (Views: 3309.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:35:22 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3106ms (Views: 3102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:35:41 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3259ms (Views: 3256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:35:54 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3201ms (Views: 3197.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:37:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 4724ms (Views: 4705.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:38:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3397ms (Views: 3394.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:39:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 3768ms (Views: 3755.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:39:35 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3028ms (Views: 3025.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:39:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3160ms (Views: 3157.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:40:06 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3104ms (Views: 3100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:40:27 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3085ms (Views: 3081.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:40:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3397ms (Views: 3391.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:40:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3167ms (Views: 3163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 11:42:01 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 121ms (Views: 108.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/tasks?category=Relaxing" for 127.0.0.1 at 2017-06-28 11:43:51 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Relaxing"}
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Relaxing"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 168ms (Views: 158.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:44:02 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 130ms (Views: 126.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 11:44:04 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 100ms (Views: 93.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:45:01 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 114ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:57:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 268ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 11:58:23 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 163ms (Views: 158.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 12:55:25 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 379ms (Views: 330.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 12:56:11 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 173ms (Views: 159.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 13:01:18 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 4207ms (Views: 4162.0ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 13:01:55 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 3683ms (Views: 3640.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 13:02:41 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 260ms (Views: 220.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:03:34 -0400
+Processing by PagesController#all as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (1 for 0)):
+  
+app/controllers/pages_controller.rb:5:in `sort_by'
+app/controllers/pages_controller.rb:5:in `all'
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.5ms)
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.6ms)
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:03:51 -0400
+Processing by PagesController#all as HTML
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 9999]]
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `order_by' for #<Task::ActiveRecord_Relation:0x007fcb172d6678>):
+  
+app/controllers/pages_controller.rb:5:in `all'
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/malasubramaniam/.gem/ruby/2.2.5/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (131.0ms)
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:07:26 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (6.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 ORDER BY category[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (56.6ms)
+Completed 200 OK in 327ms (Views: 287.9ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:07:33 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (3.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 ORDER BY category[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 116ms (Views: 109.0ms | ActiveRecord: 3.3ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (7.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (185.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hundred_development"[0m
+  [1m[35m (148.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hundred_test"[0m
+  [1m[35m (421.2ms)[0m  [1m[35mCREATE DATABASE "hundred_development" ENCODING = 'utf8'[0m
+  [1m[35m (287.7ms)[0m  [1m[35mCREATE DATABASE "hundred_test" ENCODING = 'utf8'[0m
+  [1m[35mSQL (4.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (26.6ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" serial primary key, "task" character varying, "category" character varying, "user_id" integer DEFAULT 9999, "completed" character varying DEFAULT 'no', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "desc" character varying)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170626162725)[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170626005249);
+
+[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-06-28 17:35:32.444587"], ["updated_at", "2017-06-28 17:35:32.444587"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (17.6ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" serial primary key, "task" character varying, "category" character varying, "user_id" integer DEFAULT 9999, "completed" character varying DEFAULT 'no', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "desc" character varying)[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170626162725)[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170626005249);
+
+[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-06-28 17:35:32.541366"], ["updated_at", "2017-06-28 17:35:32.541366"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Call a friend"], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.614992"], ["updated_at", "2017-06-28 17:35:32.614992"], ["desc", "With technology advancing as it is, talking on the phone is starting to become a thing of the past.  Nevertheless, talking is way more personal and it's a great way to strengthen an old bond.  "]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Talk to a stranger"], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.620665"], ["updated_at", "2017-06-28 17:35:32.620665"], ["desc", "Go to the local coffee shop and try to strike up a conversation with a stranger.  If this is too scary, go to a place where it's more normal for a conversation to occur.  For example, employees at REI are very friendly.  Pretend you want to buy some camping gear and strike up a conversation with one of the employees! "]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Volunteer "], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.624461"], ["updated_at", "2017-06-28 17:35:32.624461"], ["desc", "If you have a big chunk of time, find a local organization that needs help and offer your assistance in anyway."]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Teach a friend/family member something "], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.628028"], ["updated_at", "2017-06-28 17:35:32.628028"], ["desc", "Find a topic you are really passionate/skilled in.  Spend 30 minutes teaching them about this topic to inspire interest.  If no one is around, pretend you have to give a lecture to a class, and plan a powerpoint presentation around that topic."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "People watch outside"], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.631288"], ["updated_at", "2017-06-28 17:35:32.631288"], ["desc", "Grab a beer or favorite drink in a setting where people are walking around.  Sit outside without cell phone distractions and just observe behaviors of people."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Practice your elevator pitch "], ["category", "Social"], ["created_at", "2017-06-28 17:35:32.634783"], ["updated_at", "2017-06-28 17:35:32.634783"], ["desc", "Ever get tongue-tied when someone asks you tell me about yourself?? Perhaps thats because you never practiced your elevator pitch.  Spend 30 minutes perfecting how to answer that question in under 3 minutes."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Learn to Salsa"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.638447"], ["updated_at", "2017-06-28 17:35:32.638447"], ["desc", "With/without people.  Turn on a youtube tutorial on how to do the basics of Salsa dancing. Spend 30 minutes perfecting a few moves. Of course any type of dance would work here!"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Try Rock climbing"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.642199"], ["updated_at", "2017-06-28 17:35:32.642199"], ["desc", "Find a rock climbing gym near you.  It can be a little pricey but it is a ton of fun and you'll end up working muscles you never knew you had.  Also helps get over fear of heights!"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Walk in a different neighborhood"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.645715"], ["updated_at", "2017-06-28 17:35:32.645715"], ["desc", "Find a random neighborhood in your city/area.  Go for a walk in that area for 30 minutes.  Notice the little quirks."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Wash your car/bike"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.649249"], ["updated_at", "2017-06-28 17:35:32.649249"], ["desc", "Wipe down your car or bike.  Ride around with pride!"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Work out your abs"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.652893"], ["updated_at", "2017-06-28 17:35:32.652893"], ["desc", "The most forgotten muscle group is your abs.  They help improve your core, lessen back pain, and hopefully give you a good beach body.  Spend 30 minutes doing a circuit workout around your abs.  Crunches, leg raises, planks, even breathing can help."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Run intervals for 30 minutes"], ["category", "Active"], ["created_at", "2017-06-28 17:35:32.656196"], ["updated_at", "2017-06-28 17:35:32.656196"], ["desc", "If you are physically active, try running intervals for 30 minutes.  Instead of jogging at the same pace for 30 minutes, intervals are great way to build stamina and burn more calories.  Sprint for 30 seconds, and walk for 1 minute.  Repeat this pattern until 30 minutes are up."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Meditation outdoors"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.659441"], ["updated_at", "2017-06-28 17:35:32.659441"], ["desc", "If the weather is good, leave your electronics at home, and go to a peaceful place outdoors.  Find a comfortable place to sit and gather your thoughts.  Spend the next 25 minutes focusing on your breath and pay attention to all the sounds, smells and sites."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Simply read"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.662623"], ["updated_at", "2017-06-28 17:35:32.662623"], ["desc", "Spend 30 minutes reading a book or magazine."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Stretch a muscle that's been bothering you"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.665684"], ["updated_at", "2017-06-28 17:35:32.665684"], ["desc", "Spend 30 minutes massaging out a tight area in your body.  I recommend rubbing an old tennis ball along that area to get deep inside the tissue. "]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "De-clutter"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.669024"], ["updated_at", "2017-06-28 17:35:32.669024"], ["desc", "Spend 30 minutes looking at a particular room.  See if there are any items there you never use and donate them to a local Goodwill.  Surprising how relaxing throwing things away can be."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Yoga"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.672699"], ["updated_at", "2017-06-28 17:35:32.672699"], ["desc", "Spend 30 minutes and follow along on a guided yoga tutorial on Youtube or wherever.  Let it be an easier one so that you can really focus on your breath and posture."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Listen to birds"], ["category", "Relaxing"], ["created_at", "2017-06-28 17:35:32.676425"], ["updated_at", "2017-06-28 17:35:32.676425"], ["desc", "Find a quiet park/forest nearby.  Spend 30 minutes listening to the different birds out there.  See if you can notice the different sounds they make.  Better yet, see if you can determine the type of bird based on these sounds."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Write an outline for a novel"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.679927"], ["updated_at", "2017-06-28 17:35:32.679927"], ["desc", "Find a quiet place.  Spend 5 minutes thinking about a cool story you may want to write about.  Spend the next 30 minutes thinking about the outline of this book.  Think about the main characters, add in the secondary characters, work on the main plotline and secondary storylines, and the overarching theme of the book. These are just hints..."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Make your favorite restaurant dish"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.683309"], ["updated_at", "2017-06-28 17:35:32.683309"], ["desc", "Try your luck at cooking a dish you've always loved when eating out but never thought to try making at home!"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Design a product"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.687375"], ["updated_at", "2017-06-28 17:35:32.687375"], ["desc", "Have you ever thought; If I only had this thing, my life would be so much easier?? Think of something that would improve a minor annoyance in your life.  Spend some time sketching it out and writing a fake business proposal.  If it's that good an idea, you can even build it!"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Learn an instrument"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.691218"], ["updated_at", "2017-06-28 17:35:32.691218"], ["desc", "If you own any instrument, spend 30 minutes looking at a youtube or book.  Try and focus on a certain aspect of the instrument, such as rythym, scales, hand position.  If you don't own an instrument, take 2 wooden spatulas and try and practice a basic drumming technique!"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Sketch something"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.694943"], ["updated_at", "2017-06-28 17:35:32.694943"], ["desc", "Sketching is very easy and can be done with a simple pencil and pad.  Look at something in the room and spend 30 minutes trying to sketch out that item.  Even better, sketch an image of your favorite sports/movie star.  You may have to go through several iterations but try and incorporate depth, shading, and detail in the drawing."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Write a letter to your senator about a topic your passionate about. "], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.698324"], ["updated_at", "2017-06-28 17:35:32.698324"], ["desc", "Think of something you are passionate about and spend 30 minutes writing an article to your senator.  Example topics affordability, health care, public transportation, environment."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Advanced Photoshop Editing"], ["category", "Creative"], ["created_at", "2017-06-28 17:35:32.701637"], ["updated_at", "2017-06-28 17:35:32.701637"], ["desc", "Find a free advanced photo editing tool on your computer.  Spend 30 minutes trying to edit those images in a variety of different ways. "]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Types of trees in your backyard"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.705681"], ["updated_at", "2017-06-28 17:35:32.705681"], ["desc", "Check out all the trees in your backyard or street you live on.  Find out the species of each type of tree. Try and learn a distinctive trait about each tree. "]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Learn a new language"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.709294"], ["updated_at", "2017-06-28 17:35:32.709294"], ["desc", "Pick a language you've always wanted to learn or better yet, a completely random one.  Spend 30 minutes learning how to say basic phrases, common idioms, etc."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Learn a new language"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.712911"], ["updated_at", "2017-06-28 17:35:32.712911"], ["desc", "Pick a language you've always wanted to learn or better yet, a completely random one.  Spend 30 minutes learning how to say basic phrases, common idioms, etc."]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Try a crossword/brain teaser"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.716343"], ["updated_at", "2017-06-28 17:35:32.716343"], ["desc", "Spend 30 minutes working on a crossword puzzle or challenging brain teaser like sudoku. "]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Look up a place you've been wanting to travel"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.720389"], ["updated_at", "2017-06-28 17:35:32.720389"], ["desc", "Spend 30 minutes resarching a place you've been wanting to visit.  Learn about the history of the place, check out the popular sites, find out who the leader is, learn about 3 cities in that place.  "]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Learn about investing"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.723971"], ["updated_at", "2017-06-28 17:35:32.723971"], ["desc", "If you know nothing, look up the basics like what is a stock, ETF, Mutual fund, or Bond. If interested, spend time looking at each Ratio for a given stock and find out what each means. "]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Try home maintenance project"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.727620"], ["updated_at", "2017-06-28 17:35:32.727620"], ["desc", "Pick a random thing that's broken in your house and learn how to fix it.  Of course, if it's too complicated better to let a pro do it."]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("task", "category", "created_at", "updated_at", "desc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["task", "Try to solve different algorithms"], ["category", "Brainy"], ["created_at", "2017-06-28 17:35:32.731243"], ["updated_at", "2017-06-28 17:35:32.731243"], ["desc", "Spend 30 minutes trying to solve a complex algorithm.  If you don't know what that is, check out the site Project Euler.  They have a huge list of algorithms from easy to impossible that you can work on using any method. "]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:35:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 ORDER BY category[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 983ms (Views: 944.7ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 13:37:05 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 177ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-06-28 13:37:14 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 13:37:23 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (4.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 378ms (Views: 290.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/tasks?category=Brainy" for 127.0.0.1 at 2017-06-28 13:37:25 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Brainy"}
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Brainy"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 227ms (Views: 215.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/tasks?category=Creative" for 127.0.0.1 at 2017-06-28 13:37:33 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Creative"}
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Creative"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 154ms (Views: 148.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks?category=Creative" for 127.0.0.1 at 2017-06-28 13:37:38 -0400
+Processing by TasksController#index as HTML
+  Parameters: {"category"=>"Creative"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" = $1 ORDER BY RANDOM() LIMIT $2[0m  [["category", "Creative"], ["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 102ms (Views: 95.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:37:43 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (3.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 ORDER BY category[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 131ms (Views: 118.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/all" for 127.0.0.1 at 2017-06-28 13:37:46 -0400
+Processing by PagesController#all as HTML
+  Rendering pages/all.html.erb within layouts/application
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 ORDER BY category[0m  [["user_id", 9999]]
+  Rendered pages/all.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 108ms (Views: 100.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2017-06-28 13:37:47 -0400
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."category" IS NULL ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 131ms (Views: 118.7ms | ActiveRecord: 2.2ms)
+
+
